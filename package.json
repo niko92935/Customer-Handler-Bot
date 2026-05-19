@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-shop-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot with Gemini AI - image & link price detection",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dashboard": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
